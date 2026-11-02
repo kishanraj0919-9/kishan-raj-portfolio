@@ -1,17 +1,25 @@
-# Kishan Raj Portfolio
+# Kishan Raj — Student Portfolio
 
-React + TypeScript + Vite portfolio based on the supplied resume and project repositories.
+A simple white-and-purple portfolio for a Computer Science student. The content is based on the supplied resume and project links.
 
-## Setup
+## Files
+- `index.html` — Vite entry page
+- `main.tsx` — portfolio content
+- `styles.css` — responsive styling
+- `package.json` and `tsconfig.json` — project configuration
+- `public/resume.pdf` — resume download
+
+## Run locally
+```bash
 npm install
 npm run dev
+```
 
-## Before deployment
-1. Put the final resume PDF at `public/resume.pdf`.
-2. Confirm email, LinkedIn and GitHub links.
-3. Confirm project live-demo links.
-4. Run `npm run build`.
+## Build
+```bash
+npm run build
+```
+For Vercel, use the Vite framework preset, build command `npm run build`, and output directory `dist`.
 
-## Vercel
-Build: `npm run build`
-Output: `dist`
+## Important
+The portfolio links to the real GitHub repositories and loan demo supplied for this portfolio. Review the content and replace `public/resume.pdf` if your resume changes.
